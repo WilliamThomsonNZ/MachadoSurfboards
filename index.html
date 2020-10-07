@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="imgs/M..png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Machado Surfboards</title>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="container">
+        <header>
+          <span class="landingLogo">M.</span>
+          <nav>
+            <a href="#board-header">Boards</a>
+            <a href="#">Shaper</a>
+          </nav>
+        </header>
+        <div class="banner">
+          <h1>
+            Machado
+            <br />
+            <span class="lower-banner-text">Surfboards</span>
+          </h1>
+        </div>
+        <div class="page-numbers">
+          <ul>
+            <li id="page1" class="solid">01</li>
+            <li id="page2">02</li>
+            <li id="page3">03</li>
+          </ul>
+        </div>
+        <div class="down-container" id="down-btn">
+          <i class="fas fa-angle-double-down" id="scroll-down"></i>
+        </div>
+      </div>
+    </div>
+    <section class="boards">
+      <div class="container">
+        <div class="board-header" id="board-header">
+          <span class="logo" data-aos="fade-down" data-aos-delay="200">M.</span>
+        </div>
+        <div class="board-grid">
+          <div class="board-select" data-aos="fade-right" data-aos-delay="200">
+            <h2 id="go-fish" class="board-name selected-link" tabindex="0">
+              Go Fish
+            </h2>
+
+            <h2 id="glazer" class="board-name" tabindex="0">Glazer</h2>
+            <h2 id="seaside" class="board-name" tabindex="0">Seaside</h2>
+            <div class="find-out-more">
+              <img src="imgs/read-more.jpg" />
+              <div class="white-box"><i class="fas fa-angle-right"></i></div>
+            </div>
+          </div>
+          <div class="board-display">
+            <div
+              class="board-display-container"
+              id="boardDisplay"
+              data-aos="fade-top"
+              data-aos-delay="200"
+            >
+              <div class="board-img-container">
+                <span class="bg-text" id="bg-text">Go Fish</span>
+                <img
+                  src="imgs/boards/gofish-front.png"
+                  class="board-img"
+                  id="board-img-display"
+                />
+              </div>
+
+              <div class="controls">
+                <i class="fas fa-long-arrow-alt-left" id="left-arrow"></i>
+                <i class="fas fa-sync" id="rotate"></i>
+                <i class="fas fa-long-arrow-alt-right" id="right-arrow"></i>
+              </div>
+            </div>
+          </div>
+          <div class="board-info" data-aos="fade-left" data-aos-delay="200">
+            <div class="board-info-container">
+              <h2 id="board-name">Go Fish</h2>
+              <h3>Firewire, Machado</h3>
+              <i class="fas fa-water"></i>
+              <span class="wave-size" id="wave-size">1-5 foot</span>
+              <div class="board-desc">
+                <p id="board-desc">
+                  “No matter what the waves are like, whether it’s Kelly’s wave
+                  or a beach break in France, I just love how speedy and drivey
+                  it is, and I love the unique lines it lets me draw.”
+                </p>
+                <h4>Rob Machado</h4>
+              </div>
+              <div class="board-stats">
+                <div class="speed">
+                  <span class="stat">Speed</span>
+                  <div class="stat-bar">
+                    <div id="speed-bar"></div>
+                  </div>
+                </div>
+                <div class="manuever">
+                  <span class="stat">Manuever</span>
+                  <div class="stat-bar">
+                    <div id="man-bar"></div>
+                  </div>
+                </div>
+                <div class="steady">
+                  <span class="stat">Steady</span>
+                  <div class="stat-bar">
+                    <div id="steady-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-numbers" data-aos="fade-up" data-aos-delay="200">
+          <ul>
+            <li id="page1">01</li>
+            <li id="page2" class="solid">02</li>
+            <li id="page3">03</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="shaper">
+      <div class="container">
+        <div class="board-header" id="board-header">
+          <span class="logo" data-aos="fade-down" data-aos-delay="200">M.</span>
+        </div>
+        <article class="shaper-info">
+          <div class="bio">
+            <div class="bio-container">
+              <div class="bio-text" data-aos="fade-left" data-aos-delay="200">
+                <h2>Rob Machado</h2>
+                <p>
+                  Hey my name is Rob Machado, stoked you're here and that we're
+                  able to share the stoke. Ever since coming off tour I have
+                  found pleasure in the simple things like riding fun boards
+                  with great people in beautiful places. Here at "Rob Machado
+                  Surfboards," you will find an array of my favorite shapes.
+                  Most of my boards are made from epoxy foam and glassed with
+                  e-polly resin. With the help from my sponsor, Firewire I have
+                  been able to continue to be a professional surfer and now a
+                  shaper / designer.
+                </p>
+              </div>
+
+              <img
+                src="imgs/RobMachado_photo.jpg"
+                data-aos="fade-right"
+                data-aos-delay="200"
+              />
+
+              <i class="fas fa-water"></i>
+            </div>
+          </div>
+        </article>
+        <div class="page-numbers" data-aos="fade-up" data-aos-delay="200">
+          <ul>
+            <li id="page1">01</li>
+            <li id="page2">02</li>
+            <li id="page3" class="solid">03</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="sign-up">
+      <div class="sign-up-container">
+        <h2>Want to hear about new boards?</h2>
+        <form class="email-form">
+          <input type="email" placeholder="Enter your email" />
+          <input type="submit" value="subscribe" />
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-grid">
+          <div>
+            <h3><a href="index.html" class="footer-logo">M.</a></h3>
+            <p>Machado Surfboards</p>
+            <p>
+              Salty Garage
+              <br />
+              930 South Coast Hwy 101
+              <br />
+              Encinitas, CA 92024
+            </p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <i class="far fa-envelope"></i>
+            <span>info@robmachadosurfboards.com</span>
+            <br />
+            <i class="far fa-comments"></i>
+            <span>(760) 452-6882</span>
+          </div>
+          <div>
+            <h3>Follow Us!</h3>
+            <i class="fab fa-instagram"></i>
+            <span>@MachadoSurfboards</span>
+            <br />
+            <i class="fab fa-twitter"></i>
+            <span>@RobMachado</span>
+          </div>
+        </div>
+        <span>©Machado Surfboards 2020</span>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
